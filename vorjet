@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Umidificador portátil Vorjet - Melhore sua saúde e bem-estar com um ar mais puro!" />
+  <meta property="og:title" content="Umidificador Portátil Vorjet" />
+  <meta property="og:description" content="Alívio instantâneo para o ar seco. Compacto, silencioso e eficiente!" />
+  <meta property="og:image" content="https://example.com/imagem.webp" />
+  <meta name="robots" content="index, follow" />
+  <title>Umidificador Portátil Vorjet</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preload" as="image" href="img/umidificador.webp" type="image/webp" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Umidificador Portátil Vorjet</h1>
+      <p>Respire melhor em qualquer lugar! Compacto, silencioso e poderoso.</p>
+      <a href="#comprar" class="btn-primary">Quero o Meu Agora</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="beneficios">
+      <h2>Por que escolher o Vorjet?</h2>
+      <ul>
+        <li>💧 Alívio imediato para o ar seco</li>
+        <li>🔋 Bateria duradoura e recarregável</li>
+        <li>🧼 Purificação silenciosa</li>
+        <li>👜 Leve e fácil de transportar</li>
+      </ul>
+    </section>
+
+    <section class="imagem-produto">
+      <img src="img/umidificador.webp" alt="Umidificador Vorjet" loading="lazy" width="600" />
+    </section>
+
+    <section class="depoimentos">
+      <h2>Veja o que nossos clientes dizem</h2>
+      <blockquote>"Uso todos os dias no escritório. Melhor compra do ano!" – Juliana M.</blockquote>
+      <blockquote>"Meus filhos dormem melhor desde que comecei a usar!" – Ricardo F.</blockquote>
+    </section>
+
+    <section class="garantia">
+      <h2>Garantia de Satisfação</h2>
+      <p>7 dias de garantia ou seu dinheiro de volta, sem complicações!</p>
+    </section>
+
+    <section class="cta" id="comprar">
+      <h2>Garanta o seu por apenas <strong>R$ 99,00</strong></h2>
+      <a href="https://pagamento-seguro.com/vorjet" class="btn-primary">Comprar Agora</a>
+      <p>Frete grátis para todo o Brasil</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Vorjet Store - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
+
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  padding: 2rem;
+  text-align: center;
+}
+
+header {
+  background-color: #0077cc;
+  color: white;
+  padding: 3rem 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: #ff5722;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 1rem;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #e64a19;
+}
+
+.imagem-produto {
+  text-align: center;
+  padding: 2rem;
+}
+
+.depoimentos blockquote {
+  background-color: #fff;
+  margin: 1rem auto;
+  padding: 1rem;
+  max-width: 600px;
+  border-left: 5px solid #0077cc;
+  font-style: italic;
+}
+
+.garantia, .cta {
+  background: #eef;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+@media (max-width: 600px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
+  .btn-primary { padding: 0.8rem 1.5rem; }
+}
